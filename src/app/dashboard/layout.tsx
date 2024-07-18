@@ -7,6 +7,14 @@ const links = [
   { name: "accordion", href: "accordion" },
   { name: "alert", href: "alert" },
   { name: "button", href: "button" },
+  { name: "alert-dialog", href: "alert-dialog" },
+  { name: "dialog", href: "dialog" },
+ /* { name: "aaa", href: "aaa" },
+  { name: "aaa", href: "aaa" },
+  { name: "aaa", href: "aaa" },
+  { name: "aaa", href: "aaa" },
+  { name: "aaa", href: "aaa" },
+  { name: "aaa", href: "aaa" }, */
 ];
 
 export default function DashboardLayout({
@@ -89,14 +97,14 @@ export default function DashboardLayout({
                 </svg>
                 <span className="self-center whitespace-nowrap ml-2">
                   {" "}
-                  Shadcn/ui
+                  Learning Shadcn/ui
                 </span>
               </a>
             </div>
             <div className="flex items-center">
               {/* User Avatar */}
-              <div className="bg-blue-500 text-white p-2 rounded-full w-12 h-12 flex items-center justify-center">
-                FH
+              <div className="bg-green-500 text-white p-2 rounded-full w-12 h-12 flex items-center justify-center">
+                FL
               </div>
             </div>
           </div>
