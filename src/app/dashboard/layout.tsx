@@ -9,13 +9,13 @@ const links = [
   { name: "button", href: "button" },
   { name: "alert-dialog", href: "alert-dialog" },
   { name: "dialog", href: "dialog" },
- /* { name: "aaa", href: "aaa" },
-  { name: "aaa", href: "aaa" },
-  { name: "aaa", href: "aaa" },
-  { name: "aaa", href: "aaa" },
-  { name: "aaa", href: "aaa" },
-  { name: "aaa", href: "aaa" }, */
-];
+  { name: "badge", href: "badge" },
+  { name: "calendar", href: "calendar" },
+  { name: "avatar", href: "avatar" },
+  //{ name: "aaa", href: "aaa" },
+  //{ name: "aaa", href: "aaa" },
+  //{ name: "aaa", href: "aaa" }, */
+].sort((a, b) =>  a.name.localeCompare(b.name));
 
 export default function DashboardLayout({
   children,
@@ -119,7 +119,7 @@ export default function DashboardLayout({
           <div className="relative flex-1 flex flex-col min-h-0 borderR border-gray-200 bg-white pt-0">
             <div className="flex-1 flex flex-col pt-5 pb-4 overflow-y-auto">
               <div className="flex-1 px-3 bg-white divide-y space-y-1">
-                <ul className="space-y-2 pb-2">
+                <ul className="space-y-1 pb-2">
                   {links.map((link) => (
                     <li key={link.href}>
                       <Link
