@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { Toaster } from "@/components/ui/toaster"
 import { Toaster as SonnerToasted } from "@/components/ui/sonner"
 
 
@@ -27,6 +28,7 @@ export default function RootLayout({
           fontSans.variable
         )}>
           {children}
+          <Toaster />
           <SonnerToasted richColors />
         </body>
     </html>
