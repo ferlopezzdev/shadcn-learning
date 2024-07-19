@@ -13,7 +13,7 @@ export default function Loading() {
           <Skeleton className="rounded-full mr-2 w-10 h-10" />
         </CardHeader>
 
-        <div>
+        <div className="flex-col flex-grow">
           <Skeleton className="h-4 w-1/2 mb-2 flex-grow" />
           <Skeleton className="h-4 w-full mb-2 flex-grow" />
         </div>
